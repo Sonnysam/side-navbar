@@ -1,0 +1,44 @@
+:root{
+  --color: #ff6734;
+  --white: #fff;
+  --twitter:  hsl(207, 93%, 46%);
+  --fb:hsl(221, 89%, 41%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.side{
+  height: 100vh;
+  width: 20%;
+  background-color: rgb(194, 66, 66);
+}
+i.fa.fa-times{
+  color: var(--white);
+  font-size: 1.6rem;
+  padding: 20px;
+  cursor: pointer;
+}
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links ul{
+  padding: 20px;
+}
+.links ul li{
+  list-style-type: none;
+  padding: 40px;
+}
+.links ul li a{
+  color: var(--white);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+/* rgb(194, 66, 66) */
+
+
+  
